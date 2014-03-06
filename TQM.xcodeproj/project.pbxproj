@@ -31,7 +31,6 @@
 		050B269B18B58ED700647E27 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050B269A18B58ED700647E27 /* CFNetwork.framework */; };
 		050B269E18B5969200647E27 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 050B269D18B5969200647E27 /* Login.m */; };
 		244072F918B8331900D1D481 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 244072F818B8331900D1D481 /* Test.m */; };
-		244072FC18B84D9700D1D481 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 244072FA18B84D9600D1D481 /* Model.xcdatamodeld */; };
 		725C3CB866FA4C7DBA7A8723 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0186EED8FA4B15A4970CFC /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +80,6 @@
 		050B269D18B5969200647E27 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
 		244072F718B8331900D1D481 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		244072F818B8331900D1D481 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
-		244072FB18B84D9700D1D481 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		4E0186EED8FA4B15A4970CFC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,7 +116,6 @@
 		050B264218B58D2400647E27 = {
 			isa = PBXGroup;
 			children = (
-				244072FA18B84D9600D1D481 /* Model.xcdatamodeld */,
 				050B265418B58D2400647E27 /* TQM */,
 				050B266D18B58D2400647E27 /* TQMTests */,
 				050B264D18B58D2400647E27 /* Frameworks */,
@@ -390,7 +387,6 @@
 				050B268918B58E5700647E27 /* FeedController.m in Sources */,
 				050B265F18B58D2400647E27 /* AppDelegate.m in Sources */,
 				050B269E18B5969200647E27 /* Login.m in Sources */,
-				244072FC18B84D9700D1D481 /* Model.xcdatamodeld in Sources */,
 				050B268A18B58E5700647E27 /* LeftController.m in Sources */,
 				050B265B18B58D2400647E27 /* main.m in Sources */,
 				050B268B18B58E5700647E27 /* RightController.m in Sources */,
@@ -608,19 +604,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		244072FA18B84D9600D1D481 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				244072FB18B84D9700D1D481 /* Model.xcdatamodel */,
-			);
-			currentVersion = 244072FB18B84D9700D1D481 /* Model.xcdatamodel */;
-			path = Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 050B264318B58D2400647E27 /* Project object */;
 }
